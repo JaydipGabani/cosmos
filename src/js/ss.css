@@ -1,0 +1,46 @@
+body
+{
+    background-image: url("0104.jpg");
+    background-repeat: no-repeat;
+    color: #222;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    opacity: .4;
+}
+section{
+
+}
+nav {
+    color: #888;
+    display: block;
+    margin: 8px 22px 8px 22px;
+}
+
+nav Table {
+    margin: 0;
+    padding: 0;
+}
+
+nav Table td {
+    display: inline-block;
+    list-style-type:none;
+}
+nav > Table > tr> td > a {
+    color: #aaa;
+    display: block;
+    line-height: 56px;
+    padding: 0 24px;
+    text-decoration: none;
+}
+
+#slideshow {
+    position: fixed;
+    width: 1000px;
+    height: 600px;
+    left:300px;
+    top:0px;
+}
+#slideshow > div {
+    position: fixed;
+}
